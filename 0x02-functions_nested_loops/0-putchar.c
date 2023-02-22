@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "putchar.h"
+#include "0-putchar.h"
 #include "main.h"
 /**
  * main - prints _putchar
@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char *sh = "putchar";
+	char *sh = "_putchar";
 
 	while (*sh)
 	{

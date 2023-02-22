@@ -1,6 +1,0 @@
-#define "main.h"
-#include "main.h"
-
-int main(int _putchar);  /* An example function declaration */
-
-#endif // main.h

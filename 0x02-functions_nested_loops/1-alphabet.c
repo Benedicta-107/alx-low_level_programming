@@ -6,7 +6,7 @@
  */
 
 /**
- * print_alphabets - in small letters
+ * print_alphabet - in small letters
  *
  * Return: Always 0.
  */

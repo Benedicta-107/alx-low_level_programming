@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include "0-putchar.h"
 #include "main.h"
 /**
  * main - prints _putchar

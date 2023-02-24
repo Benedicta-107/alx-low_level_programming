@@ -14,13 +14,12 @@ int main(void)
 {
 	int n;
 
-	srand(time(0));
 	n = 0;
 	/* my code goes in there */
 
-	if (n == 0)
+	if (n > 0)
 		{
-		printf("%d is Zero\n", n);
+		printf("%d is positive\n", n);
 	}
 	else
 		{
@@ -30,7 +29,7 @@ int main(void)
 		}
 		else
 			{
-			printf("%d is positive\n", n);
+			printf("%d is zero\n", n);
 		}
 	}
 	return (0);

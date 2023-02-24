@@ -12,17 +12,17 @@ int main (void)
 {
     int a = 972, b = -98, c = 0;
 
-    if (a > b && b > c)
+    if (a > b)
     {
-        printf("a is largest");
+        printf("%d is largest\n", a);
     }
-    else if (b > a && a > c)
+    else if (b > a)
     {
-        printf("b is largest");
+        printf("%d is largest\n", b);
     }
     else
     {
-        printf("c is largest");
+        printf("%d is largest\n", c);
     }
 
     return (0);

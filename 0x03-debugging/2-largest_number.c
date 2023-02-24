@@ -8,22 +8,22 @@
  * @c: third integer
  * Return: largest number
  */
-int main (void)
+
+int largest_number(int a, int b, int c)
 {
-    int a = 972, b = -98, c = 0;
-
-    if (a > b)
-    {
-        printf("%d is largest\n", a);
-    }
-    else if (b > a)
-    {
-        printf("%d is largest\n", b);
-    }
-    else
-    {
-        printf("%d is largest\n", c);
-    }
-
-    return (0);
+	int largest;
+	
+	if (a > b && a > c)
+	{
+		largest = a;
+	}
+	else if (b > c)
+	{
+		largest = b;
+	}
+	else
+	{
+		largest = c;
+	}
+	return (largest);
 }

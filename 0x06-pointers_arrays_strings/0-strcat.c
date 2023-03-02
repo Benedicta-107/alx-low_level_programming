@@ -7,7 +7,7 @@
  * @src: string to append to the destination string.
  * @dest: the destination string.
  * strcat: concatenates the string
- * Return: always 0.
+ * Return: dest.
  */
 
 char *_strcat(char *dest, char *src)

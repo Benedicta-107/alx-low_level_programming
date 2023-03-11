@@ -3,16 +3,17 @@
 /**
  * _sqrt_recursion - function to return the natural square root of a number.
  * @n: integer number.
+ * @num: The number to find the square root of.
+ * @root: The root to be tested.
  * Return: the natural square root of the number.
+ *
  */
+
 int find_sqrt(int num, int root);
 int _sqrt_recursion(int n);
 
 /**
  * find_sqrt - Finds the natural square root of an inputted number.
- * @num: The number to find the square root of.
- * @root: The root to be tested.
- *
  * Return: If the number has a natural square root - the square root.
  *         If the number does not have a natural square root - -1.
  */

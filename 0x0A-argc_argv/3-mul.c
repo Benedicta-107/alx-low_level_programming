@@ -5,7 +5,6 @@
  * main - function
  * @argc: argument count
  * @argv: argument vector
- * @prod: to multiply
  *Return: always 0
  */
 

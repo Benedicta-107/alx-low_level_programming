@@ -1,17 +1,16 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
  * malloc_checked - function to allocate memory.
- * @b: allocated memory or the unsigned integer.
+ * @b: allocated memory.
  *
  * Return: a pointer to the memory.
  */
 
 void *malloc_checked(unsigned int b)
 {
-	void *i;
+	void *i = malloc(b);
 
-	i = malloc(b);
 	if (i == NULL)
 		exit(98);
 	return (i);

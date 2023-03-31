@@ -1,0 +1,28 @@
+     1                                  section .data
+     2 00000000 48656C6C6F2C20486F-         hello: db "Hello, Holberton!", 0Ah, 00h
+     2 00000009 6C626572746F6E210A-
+     2 00000012 00                 
+     3 00000013 2573                        fmt: db "%s"
+     4                                  
+     5                                  section .text
+     6                                      global _start
+     7                                  
+     8                                  _start:
+     9                                      ; Push the format string onto the stack
+    10 00000000 68[13000000]                push qword fmt
+    11                                  
+    12                                      ; Push the address of the hello string onto the stack
+    13 00000005 68[00000000]                push qword hello
+    14                                  
+    15                                      ; Call printf
+    16 0000000A B800000000                  mov rax, 0
+    17                                      call printf
+    17          ******************       error: symbol `printf' undefined
+    18                                  
+    19                                      ; Clean up the stack
+    20 0000000F 4883C410                    add rsp, 16
+    21                                  
+    22                                      ; Exit the program
+    23 00000013 B800000000                  mov eax, 0
+    24 00000018 C3                          ret
+    25                                  

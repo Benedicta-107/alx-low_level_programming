@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * free_listint2 - The function to free the linked list & sets the head to NULL.
+ * free_listint2 - The function to free the linked list & sets head to NULL.
  * @head: The double pointer that points to the head of the linked list.
  *
  * Return: 0.
